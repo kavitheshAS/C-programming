@@ -18,7 +18,7 @@ int main()
     while ((c = getchar()) != '\n' && c != EOF);
 
     // Read a sentence
-    fgets(str, sizeof(str), stdin);
+    fgets(str, sizeof(str), stdin); //scanf("%[^\n]%*c",string);  this is an alternative.line explained in gptshared chat in tele.
 
     // Print the values
     printf("Character: %c\n", c1);
