@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main() 
+{   
     char c1;
     char wrd[100];
     char str[100];
